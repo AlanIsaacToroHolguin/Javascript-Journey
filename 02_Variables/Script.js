@@ -9,3 +9,13 @@ let y = 20;
 
 // const → modern, block scope, value cannot change
 const z = 30;
+
+
+// define variables with let
+let name = "Alan";
+let age = 20;
+let country = "Colombia";
+
+
+console.log(name, age, country);
+
