@@ -16,6 +16,11 @@ let name = "Alan";
 let age = 20;
 let country = "Colombia";
 
-
 console.log(name, age, country);
 
+// concatenated variables
+alert("Name: " + name + " | Age: " + age + " | Country: " + country);
+
+let AboutAlan = "Hello this is " + name + " from JS, I am " + age + " years old and I live in " + country;
+
+console.log(AboutAlan);
