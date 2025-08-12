@@ -29,3 +29,26 @@ let user = {
 
 // Output values to the console
 console.log(message, temperature, isLoggedIn);
+
+/*
+  typeof: returns the data type of a variable as a string.
+  Note: typeof null returns "object" (JavaScript quirk).
+
+  Array.isArray: specifically checks if a variable is an array,
+  because typeof returns "object" for arrays.
+*/
+
+// === typeof operator examples ===
+console.log(typeof heroName);          // "string"
+console.log(typeof powerLevel);        // "number"
+console.log(typeof flyingSpeed);       // "number"
+console.log(typeof hasCape);            // "boolean"
+console.log(typeof secretWeapon);      // "undefined"
+console.log(typeof sidekick);          // "object" (special case for null)
+console.log(typeof favoriteSnacks);    // "object" (arrays are objects)
+console.log(typeof villain);            // "object"
+
+// === Array.isArray usage ===
+console.log(Array.isArray(favoriteSnacks));  // true  - confirms it’s an array
+console.log(Array.isArray(villain));          // false - villain is an object, not an array
+
