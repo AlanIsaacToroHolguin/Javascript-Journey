@@ -1,5 +1,5 @@
 /*
-Exercise 1:
+Exercise 2:
 
 We have 7 boxes with 8 cookies each.  
 How many cookies are there in total?  
