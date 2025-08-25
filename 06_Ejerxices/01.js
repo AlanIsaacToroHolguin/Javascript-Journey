@@ -1,21 +1,23 @@
 /*
-Ejercicio 1:
+Exercise 1:
 
-Calcula cuántas horas le llevaría llegar a la Luna a una nave espacial y guarda el resultado en una variable.
+Calculate how many hours it would take for a spaceship to reach the Moon 
+and store the result in a variable.
 
-La distancia desde la Tierra hasta la Luna es de 384.400 kilómetros.
+The distance from Earth to the Moon is 384,400 kilometers.
 
-La velocidad de la nave es de 1225 kilómetros por hora.
+The speed of the spaceship is 1225 kilometers per hour.
 */
 
-// Distancia en kilómetros
-const distanciaLuna = 384400;
+// Distance in kilometers
+const moonDistance = 384400;
 
-// Velocidad en km/h
-const velocidadNave = 1225;
+// Speed in km/h
+const shipSpeed = 1225;
 
-// Calcular tiempo = distancia / velocidad
-const horas = distanciaLuna / velocidadNave;
+// Calculate time = distance / speed
+const hours = moonDistance / shipSpeed;
 
-// Mostrar resultado
-console.log("La nave tardaría " + horas + " horas en llegar a la Luna.");
+// Show result
+console.log("The spaceship would take " + hours + " hours to reach the Moon.");
+
