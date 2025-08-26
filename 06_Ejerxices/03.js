@@ -1,5 +1,5 @@
 /*
-Exercise 1:
+Exercise 3:
 
 How many minutes are there in 7 hours and 22 minutes?  
 Store the result in a variable and display it in the console.
