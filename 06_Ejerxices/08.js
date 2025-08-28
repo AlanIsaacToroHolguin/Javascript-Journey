@@ -16,4 +16,6 @@ let cone2 = (scoopPrice * 2) + conePrice;
 let cone3 = (scoopPrice * 3) + conePrice;
 
 // Output
-console.log(`The price of a cone with 1 scoop is ${cone1} euros, with 2 scoops is ${cone2} euros, and with 3 scoops is ${cone3} euros.`);
+console.log(`The price of a cone with 1 scoop is ${cone1} euros, 
+    with 2 scoops is ${cone2} euros, 
+    and with 3 scoops is ${cone3} euros.`);
