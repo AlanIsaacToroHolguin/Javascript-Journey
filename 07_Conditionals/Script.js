@@ -43,12 +43,23 @@ if (!wantsOnion) {
     console.log("Your hamburger will not have onion");
 }
 
-// Example 3: Check if a person is old enough to buy alcohol in the US
+// Example 3: 
 let name = "Alan";
-let age = 20;
+let age = 70;
 
-if (age >= 21) {
-    console.log(`${name} is ${age} years old, so they can buy alcohol in the United States.`);
+if (age >= 18) {
+    // Person is an adult (18 or older)
+    console.log(`${name} is ${age} years old and is an adult.`);
+
+    if (age <= 20) {
+        console.log(`${name} is ${age} years old and is a teenager.`);
+    } else if (age >= 70) {
+        console.log(`${name} is ${age} years old and is elderly.`);
+    } else {
+        console.log(`${name} is ${age} years old and is an adult.`);
+    }
+
 } else {
-    console.log(`${name} is ${age} years old and cannot buy alcohol in the United States yet.`);
+    // Person is a minor (under 18)
+    console.log(`${name} is ${age} years old and is a minor.`);
 }
