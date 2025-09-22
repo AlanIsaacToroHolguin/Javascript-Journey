@@ -63,3 +63,30 @@ if (age >= 18) {
     // Person is a minor (under 18)
     console.log(`${name} is ${age} years old and is a minor.`);
 }
+
+// Example 4
+let goodWeather = false;
+
+if (goodWeather) {
+    console.log("Let's go to the beach");
+} else {
+    console.log("We stay at home");
+}
+
+// Example 5
+let year = 2037;
+
+if (year >= 2000 && year <= 2030) {
+    console.log("We are in the current era");
+} else if (year > 2030) {
+    console.log("We are in the postmodern era");
+} else {
+    console.log("We are in the past era");
+}
+
+// Example 6
+if (year === 2007 || year === 2017 || year === 2027 || year === 2037) {
+    console.log("The year ends with 7");
+} else {
+    console.log("The year does not end with 7");
+}
