@@ -24,3 +24,39 @@ alert("Name: " + name + " | Age: " + age + " | Country: " + country);
 let AboutAlan = "Hello this is " + name + " from JS, I am " + age + " years old and I live in " + country;
 
 console.log(AboutAlan);
+
+
+
+/*
+ Difference between let and var
+
+ In JavaScript, both `let` and `var` are used to declare variables,
+ but they behave differently:
+
+ 1. Scope:
+    - `var` has function scope (or global scope if declared outside a function).
+    - `let` has block scope (only exists inside { } where it is defined).
+
+ 2. Hoisting:
+    - `var` declarations are hoisted to the top of their scope and initialized with `undefined`.
+    - `let` is hoisted too, but not initialized, so using it before declaration causes an error.
+
+ 3. Redeclaration:
+    - `var` allows redeclaring the same variable in the same scope.
+    - `let` does not allow redeclaration in the same scope (safer).
+
+Best practice: Use `let` (or `const`) instead of `var`.
+*/
+
+// Example:
+function testVarLet() {
+    if (true) {
+        var x = 10;   // function scoped
+        let y = 20;   // block scoped
+    }
+
+    console.log(x); // ✅ Works: 10
+    // console.log(y); // ❌ Error: y is not defined (because let is block scoped)
+}
+
+testVarLet();
